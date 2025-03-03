@@ -31,11 +31,22 @@ cd dog_breed_assistant
 ```
 
 ### **Run with Docker**
+```bash
 docker-compose up -d --build
+```
 
 ### **Checks**
 Backend → http://localhost:8000/docs
 Frontend → http://localhost:8501
+
+### Notes
+1. Please wait until the FastAPI server is up on the backend, before proceeding with requests on Streamlit. The following message will be visible:
+```bash
+docker-compose logs backend
+# backend_1   | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+```
+2. Please make sure that the folder structure is adhered to.
+
 
 Features
 
