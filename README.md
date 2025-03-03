@@ -30,10 +30,10 @@ git clone https://github.com/YOUR_GITHUB_USERNAME/dog_breed_assistant.git
 cd dog_breed_assistant
 ```
 
-###Run with Docker
+### **Run with Docker**
 docker-compose up -d --build
 
-#Checks:
+### **Checks**
 Backend → http://localhost:8000/docs
 Frontend → http://localhost:8501
 
