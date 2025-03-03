@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pandas
+numpy
+duckdb
+transformers
+torch
+sentence-transformers
+faiss-cpu
+spacy
